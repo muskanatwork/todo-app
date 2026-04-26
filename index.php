@@ -26,6 +26,7 @@
             ?>
                 <li>
                     <?php echo $row['task']; ?>
+                    <a href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
                 </li>
             <?php } ?>
         </ul>
